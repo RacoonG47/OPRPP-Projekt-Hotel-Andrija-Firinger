@@ -21,7 +21,6 @@ public final class DatabaseUtil {
         }
     }
 
-    // Lazy Singleton
     public static DatabaseUtil getInstance() {
         if (instance == null) {
             instance = new DatabaseUtil();
