@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="hr.algebra.hotel.controller.ItineraryController">
+
+    <top>
+        <VBox spacing="10">
+            <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+            <Label text="Travel Itinerary Planner" style="-fx-font-size: 16; -fx-font-weight: bold;"/>
+            <Label text="Drag hotels from the list to build your itinerary"/>
+        </VBox>
+    </top>
+
+    <center>
+        <HBox spacing="20">
+            <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+
+            <VBox spacing="10" HBox.hgrow="ALWAYS">
+                <Label text="Available Hotels" style="-fx-font-weight: bold;"/>
+                <ListView fx:id="availableHotelsListView" VBox.vgrow="ALWAYS"/>
+            </VBox>
+
+            <VBox spacing="10" HBox.hgrow="ALWAYS">
+                <Label text="My Itinerary" style="-fx-font-weight: bold;"/>
+                <ListView fx:id="itineraryListView" VBox.vgrow="ALWAYS"/>
+                <HBox spacing="10">
+                    <Button text="Remove Selected" onAction="#handleRemove" HBox.hgrow="ALWAYS" maxWidth="Infinity"/>
+                    <Button text="Clear All" onAction="#handleClear" HBox.hgrow="ALWAYS" maxWidth="Infinity"/>
+                </HBox>
+            </VBox>
+        </HBox>
+    </center>
+
+</BorderPane>

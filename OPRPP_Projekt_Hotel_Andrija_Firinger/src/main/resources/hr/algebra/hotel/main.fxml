@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="hr.algebra.hotel.controller.MainController"
+            fx:id="root"
+            prefWidth="1200"
+            prefHeight="800">
+
+    <top>
+        <MenuBar>
+            <Menu text="Hotels">
+                <MenuItem text="Manage Hotels" onAction="#handleHotels"/>
+            </Menu>
+            <Menu text="Cities">
+                <MenuItem text="Manage Cities" onAction="#handleCities"/>
+            </Menu>
+            <Menu text="Amenities">
+                <MenuItem text="Manage Amenities" onAction="#handleAmenities"/>
+            </Menu>
+            <Menu text="Itinerary">
+                <MenuItem text="Plan Itinerary" onAction="#handleItinerary"/>
+            </Menu>
+            <Menu text="Account">
+                <MenuItem text="Logout" onAction="#handleLogout"/>
+            </Menu>
+        </MenuBar>
+    </top>
+
+</BorderPane>

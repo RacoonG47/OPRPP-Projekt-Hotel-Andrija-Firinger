@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="hr.algebra.hotel.controller.HotelController">
+
+    <top>
+        <VBox spacing="10">
+            <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+            <Label text="Hotels" style="-fx-font-size: 16; -fx-font-weight: bold;"/>
+            <HBox spacing="10">
+                <TextField fx:id="searchField" promptText="Search by name..." HBox.hgrow="ALWAYS"/>
+                <ComboBox fx:id="cityFilter" promptText="Filter by city"/>
+                <ComboBox fx:id="categoryFilter" promptText="Filter by category"/>
+                <ComboBox fx:id="amenityFilter" promptText="Filter by amenity"/>
+                <Button text="Search" onAction="#handleSearch"/>
+                <Button text="Clear" onAction="#handleClear"/>
+                <Button text="Refresh" onAction="#handleRefresh"/>
+            </HBox>
+        </VBox>
+    </top>
+
+    <center>
+        <TableView fx:id="hotelTable" onMouseClicked="#handleTableClick">
+            <columns>
+                <TableColumn fx:id="nameColumn" text="Name" prefWidth="200"/>
+                <TableColumn fx:id="cityColumn" text="City" prefWidth="150"/>
+                <TableColumn fx:id="categoryColumn" text="Category" prefWidth="100"/>
+                <TableColumn fx:id="priceColumn" text="Price/Night" prefWidth="120"/>
+                <TableColumn fx:id="roomsColumn" text="Rooms" prefWidth="80"/>
+            </columns>
+        </TableView>
+    </center>
+
+    <right>
+        <VBox spacing="10" prefWidth="480">
+            <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+
+            <Label text="Hotel Details" style="-fx-font-weight: bold;"/>
+
+            <HBox spacing="10">
+                <VBox spacing="10" HBox.hgrow="ALWAYS">
+                    <TextField fx:id="nameField" promptText="Name"/>
+                    <TextField fx:id="addressField" promptText="Address"/>
+                    <TextField fx:id="roomsField" promptText="Number of rooms"/>
+                    <TextField fx:id="priceField" promptText="Price per night"/>
+                    <TextArea fx:id="descriptionField" promptText="Description" prefHeight="80"/>
+                    <ComboBox fx:id="cityCombo" promptText="Select city" maxWidth="Infinity"/>
+                    <ComboBox fx:id="categoryCombo" promptText="Select category" maxWidth="Infinity"/>
+                </VBox>
+
+                <VBox spacing="10" prefWidth="220">
+                    <HBox spacing="10">
+                        <TextField fx:id="imagePathField" promptText="Image path..." HBox.hgrow="ALWAYS"/>
+                        <Button text="Browse" onAction="#handleBrowseImage"/>
+                    </HBox>
+                    <ImageView fx:id="hotelImageView" fitWidth="220" fitHeight="160" preserveRatio="true"/>
+                    <Label text="Amenities:"/>
+                    <ListView fx:id="amenityListView" VBox.vgrow="ALWAYS" prefHeight="180"/>
+                </VBox>
+            </HBox>
+
+            <Label fx:id="statusLabel" text="" wrapText="true"/>
+
+            <HBox spacing="10">
+                <Button text="Add" onAction="#handleAdd" HBox.hgrow="ALWAYS" maxWidth="Infinity"/>
+                <Button text="Update" onAction="#handleUpdate" HBox.hgrow="ALWAYS" maxWidth="Infinity"/>
+                <Button text="Delete" onAction="#handleDelete" HBox.hgrow="ALWAYS" maxWidth="Infinity"/>
+            </HBox>
+
+            <Button text="Export to XML" onAction="#handleExportXml" maxWidth="Infinity"/>
+            <Button text="Export City to XML" onAction="#handleExportByCity" maxWidth="Infinity"/>
+            <Button text="View Reviews" onAction="#handleViewReviews" maxWidth="Infinity"/>
+        </VBox>
+    </right>
+
+</BorderPane>

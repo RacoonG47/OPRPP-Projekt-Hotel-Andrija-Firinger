@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="hr.algebra.hotel.controller.AmenityController">
+
+    <top>
+        <VBox spacing="10">
+            <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+            <Label text="Amenities" style="-fx-font-size: 16; -fx-font-weight: bold;"/>
+        </VBox>
+    </top>
+
+    <center>
+        <TableView fx:id="amenityTable" onMouseClicked="#handleTableClick">
+            <columns>
+                <TableColumn fx:id="nameColumn" text="Name" prefWidth="500"/>
+            </columns>
+        </TableView>
+    </center>
+
+    <right>
+        <VBox spacing="10" prefWidth="250">
+            <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+
+            <Label text="Amenity Details" style="-fx-font-weight: bold;"/>
+
+            <TextField fx:id="nameField" promptText="Amenity name"/>
+
+            <Label fx:id="statusLabel" text=""/>
+
+            <HBox spacing="10">
+                <Button text="Add" onAction="#handleAdd" HBox.hgrow="ALWAYS" maxWidth="Infinity"/>
+                <Button text="Update" onAction="#handleUpdate" HBox.hgrow="ALWAYS" maxWidth="Infinity"/>
+                <Button text="Delete" onAction="#handleDelete" HBox.hgrow="ALWAYS" maxWidth="Infinity"/>
+            </HBox>
+        </VBox>
+    </right>
+
+</BorderPane>

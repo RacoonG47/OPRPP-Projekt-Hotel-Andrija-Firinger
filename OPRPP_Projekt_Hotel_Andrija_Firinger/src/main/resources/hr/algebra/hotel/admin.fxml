@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="hr.algebra.hotel.controller.AdminController"
+      spacing="20"
+      prefWidth="600"
+      prefHeight="400">
+
+    <padding>
+        <Insets top="40" right="60" bottom="40" left="60"/>
+    </padding>
+
+    <Label text="Administrator Panel" style="-fx-font-size: 20; -fx-font-weight: bold;"/>
+
+    <Separator/>
+
+    <Label text="Database Management" style="-fx-font-size: 14;"/>
+
+    <Button text="Delete All Data" onAction="#handleDeleteAllData"
+            maxWidth="Infinity" style="-fx-text-fill: red;"/>
+
+    <Separator/>
+
+    <Label text="Import Initial Data (XML)" style="-fx-font-size: 14;"/>
+
+    <HBox spacing="10">
+        <TextField fx:id="importPathField" promptText="Select file..." HBox.hgrow="ALWAYS"/>
+        <Button text="Browse" onAction="#handleBrowse"/>
+    </HBox>
+
+    <Button text="Import Data" onAction="#handleImport" maxWidth="Infinity"/>
+
+    <Separator/>
+
+    <Label fx:id="statusLabel" text="" style="-fx-text-fill: green;"/>
+
+    <Button text="Go to Application" onAction="#handleGoToMain" maxWidth="Infinity"/>
+
+</VBox>

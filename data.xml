@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <cities>
+        <city>
+            <name>Paris</name>
+            <country>France</country>
+        </city>
+        <city>
+            <name>Rome</name>
+            <country>Italy</country>
+        </city>
+        <city>
+            <name>Barcelona</name>
+            <country>Spain</country>
+        </city>
+        <city>
+            <name>Amsterdam</name>
+            <country>Netherlands</country>
+        </city>
+        <city>
+            <name>Prague</name>
+            <country>Czech Republic</country>
+        </city>
+        <city>
+            <name>Vienna</name>
+            <country>Austria</country>
+        </city>
+        <city>
+            <name>Dubrovnik</name>
+            <country>Croatia</country>
+        </city>
+        <city>
+            <name>London</name>
+            <country>United Kingdom</country>
+        </city>
+        <city>
+            <name>Lisbon</name>
+            <country>Portugal</country>
+        </city>
+        <city>
+            <name>Budapest</name>
+            <country>Hungary</country>
+        </city>
+    </cities>
+
+    <amenities>
+        <amenity>Pool</amenity>
+        <amenity>Spa</amenity>
+        <amenity>Gym</amenity>
+        <amenity>Restaurant</amenity>
+        <amenity>Parking</amenity>
+        <amenity>Free WiFi</amenity>
+        <amenity>Bar</amenity>
+        <amenity>Room Service</amenity>
+        <amenity>Concierge</amenity>
+        <amenity>Airport Shuttle</amenity>
+        <amenity>Pet Friendly</amenity>
+        <amenity>Business Center</amenity>
+    </amenities>
+
+    <hotels>
+        <hotel>
+            <name>Hotel Le Meurice</name>
+            <address>228 Rue de Rivoli, Paris</address>
+            <numRooms>160</numRooms>
+            <pricePerNight>850.00</pricePerNight>
+            <description>Iconic luxury hotel in the heart of Paris</description>
+            <category>5</category>
+            <city>Paris</city>
+            <amenities>
+                <amenity>Pool</amenity>
+                <amenity>Spa</amenity>
+                <amenity>Restaurant</amenity>
+                <amenity>Free WiFi</amenity>
+                <amenity>Concierge</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>Hotel Marais Boutique</name>
+            <address>12 Rue de Bretagne, Paris</address>
+            <numRooms>40</numRooms>
+            <pricePerNight>220.00</pricePerNight>
+            <description>Charming boutique hotel in the Marais district</description>
+            <category>3</category>
+            <city>Paris</city>
+            <amenities>
+                <amenity>Free WiFi</amenity>
+                <amenity>Bar</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>Paris Grand Palace</name>
+            <address>8 Avenue Montaigne, Paris</address>
+            <numRooms>250</numRooms>
+            <pricePerNight>1200.00</pricePerNight>
+            <description>Opulent palace hotel on the most prestigious avenue in Paris</description>
+            <category>5</category>
+            <city>Paris</city>
+            <amenities>
+                <amenity>Pool</amenity>
+                <amenity>Spa</amenity>
+                <amenity>Gym</amenity>
+                <amenity>Restaurant</amenity>
+                <amenity>Bar</amenity>
+                <amenity>Concierge</amenity>
+                <amenity>Airport Shuttle</amenity>
+                <amenity>Room Service</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>Hotel Roma Luxe</name>
+            <address>Via Veneto 125, Rome</address>
+            <numRooms>90</numRooms>
+            <pricePerNight>320.00</pricePerNight>
+            <description>Elegant hotel near the Colosseum</description>
+            <category>4</category>
+            <city>Rome</city>
+            <amenities>
+                <amenity>Restaurant</amenity>
+                <amenity>Free WiFi</amenity>
+                <amenity>Parking</amenity>
+                <amenity>Room Service</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>Trastevere Inn</name>
+            <address>Via della Lungaretta 10, Rome</address>
+            <numRooms>30</numRooms>
+            <pricePerNight>95.00</pricePerNight>
+            <description>Cozy inn in the vibrant Trastevere neighbourhood</description>
+            <category>2</category>
+            <city>Rome</city>
+            <amenities>
+                <amenity>Free WiFi</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>Hotel Artemide Roma</name>
+            <address>Via Nazionale 22, Rome</address>
+            <numRooms>85</numRooms>
+            <pricePerNight>180.00</pricePerNight>
+            <description>Classic hotel in central Rome with rooftop terrace</description>
+            <category>4</category>
+            <city>Rome</city>
+            <amenities>
+                <amenity>Spa</amenity>
+                <amenity>Gym</amenity>
+                <amenity>Restaurant</amenity>
+                <amenity>Free WiFi</amenity>
+                <amenity>Bar</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>Barcelona Beach Hotel</name>
+            <address>Passeig de Gracia 10, Barcelona</address>
+            <numRooms>200</numRooms>
+            <pricePerNight>210.00</pricePerNight>
+            <description>Modern hotel with sea views</description>
+            <category>4</category>
+            <city>Barcelona</city>
+            <amenities>
+                <amenity>Pool</amenity>
+                <amenity>Gym</amenity>
+                <amenity>Bar</amenity>
+                <amenity>Free WiFi</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>Gothic Quarter Hostel</name>
+            <address>Carrer de Ferran 42, Barcelona</address>
+            <numRooms>25</numRooms>
+            <pricePerNight>65.00</pricePerNight>
+            <description>Budget friendly accommodation in the heart of the Gothic Quarter</description>
+            <category>2</category>
+            <city>Barcelona</city>
+            <amenities>
+                <amenity>Free WiFi</amenity>
+                <amenity>Bar</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>W Barcelona</name>
+            <address>Placa de la Rosa dels Vents 1, Barcelona</address>
+            <numRooms>473</numRooms>
+            <pricePerNight>520.00</pricePerNight>
+            <description>Iconic sail-shaped luxury hotel on Barceloneta beach</description>
+            <category>5</category>
+            <city>Barcelona</city>
+            <amenities>
+                <amenity>Pool</amenity>
+                <amenity>Spa</amenity>
+                <amenity>Gym</amenity>
+                <amenity>Restaurant</amenity>
+                <amenity>Bar</amenity>
+                <amenity>Concierge</amenity>
+                <amenity>Room Service</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>Amsterdam Canal Inn</name>
+            <address>Prinsengracht 587, Amsterdam</address>
+            <numRooms>45</numRooms>
+            <pricePerNight>175.00</pricePerNight>
+            <description>Charming hotel on the famous canals</description>
+            <category>3</category>
+            <city>Amsterdam</city>
+            <amenities>
+                <amenity>Free WiFi</amenity>
+                <amenity>Bar</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>Pulitzer Amsterdam</name>
+            <address>Prinsengracht 315, Amsterdam</address>
+            <numRooms>225</numRooms>
+            <pricePerNight>380.00</pricePerNight>
+            <description>25 historic canal houses transformed into a luxury hotel</description>
+            <category>5</category>
+            <city>Amsterdam</city>
+            <amenities>
+                <amenity>Restaurant</amenity>
+                <amenity>Bar</amenity>
+                <amenity>Free WiFi</amenity>
+                <amenity>Concierge</amenity>
+                <amenity>Room Service</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>Prague Old Town Hotel</name>
+            <address>Staromestske namesti 1, Prague</address>
+            <numRooms>70</numRooms>
+            <pricePerNight>130.00</pricePerNight>
+            <description>Historic hotel in the Old Town Square</description>
+            <category>3</category>
+            <city>Prague</city>
+            <amenities>
+                <amenity>Free WiFi</amenity>
+                <amenity>Restaurant</amenity>
+                <amenity>Parking</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>Four Seasons Prague</name>
+            <address>Veleslavinova 2a, Prague</address>
+            <numRooms>162</numRooms>
+            <pricePerNight>490.00</pricePerNight>
+            <description>Luxury hotel overlooking the Vltava River and Charles Bridge</description>
+            <category>5</category>
+            <city>Prague</city>
+            <amenities>
+                <amenity>Pool</amenity>
+                <amenity>Spa</amenity>
+                <amenity>Gym</amenity>
+                <amenity>Restaurant</amenity>
+                <amenity>Bar</amenity>
+                <amenity>Concierge</amenity>
+                <amenity>Room Service</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>Hotel Sacher Wien</name>
+            <address>Philharmoniker Strasse 4, Vienna</address>
+            <numRooms>149</numRooms>
+            <pricePerNight>650.00</pricePerNight>
+            <description>Legendary luxury hotel famous for the Original Sacher-Torte</description>
+            <category>5</category>
+            <city>Vienna</city>
+            <amenities>
+                <amenity>Spa</amenity>
+                <amenity>Restaurant</amenity>
+                <amenity>Bar</amenity>
+                <amenity>Free WiFi</amenity>
+                <amenity>Concierge</amenity>
+                <amenity>Room Service</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>Vienna City Pension</name>
+            <address>Mariahilfer Strasse 55, Vienna</address>
+            <numRooms>38</numRooms>
+            <pricePerNight>85.00</pricePerNight>
+            <description>Affordable pension in a great central location</description>
+            <category>2</category>
+            <city>Vienna</city>
+            <amenities>
+                <amenity>Free WiFi</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>Villa Dubrovnik</name>
+            <address>Vlaha Bukovca 6, Dubrovnik</address>
+            <numRooms>56</numRooms>
+            <pricePerNight>420.00</pricePerNight>
+            <description>Cliffside hotel with stunning Adriatic views</description>
+            <category>5</category>
+            <city>Dubrovnik</city>
+            <amenities>
+                <amenity>Pool</amenity>
+                <amenity>Spa</amenity>
+                <amenity>Restaurant</amenity>
+                <amenity>Bar</amenity>
+                <amenity>Free WiFi</amenity>
+                <amenity>Concierge</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>Old Town Apartments Dubrovnik</name>
+            <address>Od Sigurate 4, Dubrovnik</address>
+            <numRooms>15</numRooms>
+            <pricePerNight>110.00</pricePerNight>
+            <description>Cozy apartments inside the historic city walls</description>
+            <category>3</category>
+            <city>Dubrovnik</city>
+            <amenities>
+                <amenity>Free WiFi</amenity>
+                <amenity>Parking</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>The Savoy London</name>
+            <address>Strand, London</address>
+            <numRooms>267</numRooms>
+            <pricePerNight>900.00</pricePerNight>
+            <description>London's most iconic luxury hotel since 1889</description>
+            <category>5</category>
+            <city>London</city>
+            <amenities>
+                <amenity>Pool</amenity>
+                <amenity>Spa</amenity>
+                <amenity>Gym</amenity>
+                <amenity>Restaurant</amenity>
+                <amenity>Bar</amenity>
+                <amenity>Concierge</amenity>
+                <amenity>Room Service</amenity>
+                <amenity>Business Center</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>Premier Inn London City</name>
+            <address>Aldgate High Street 66, London</address>
+            <numRooms>220</numRooms>
+            <pricePerNight>120.00</pricePerNight>
+            <description>Comfortable budget hotel in the City of London</description>
+            <category>3</category>
+            <city>London</city>
+            <amenities>
+                <amenity>Free WiFi</amenity>
+                <amenity>Restaurant</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>Bairro Alto Hotel</name>
+            <address>Praca Luis de Camoes 2, Lisbon</address>
+            <numRooms>55</numRooms>
+            <pricePerNight>350.00</pricePerNight>
+            <description>Stylish boutique hotel in historic Bairro Alto</description>
+            <category>5</category>
+            <city>Lisbon</city>
+            <amenities>
+                <amenity>Spa</amenity>
+                <amenity>Restaurant</amenity>
+                <amenity>Bar</amenity>
+                <amenity>Free WiFi</amenity>
+                <amenity>Concierge</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>Lisbon Budget Stay</name>
+            <address>Rua Augusta 100, Lisbon</address>
+            <numRooms>50</numRooms>
+            <pricePerNight>70.00</pricePerNight>
+            <description>Clean and affordable accommodation on the famous Rua Augusta</description>
+            <category>2</category>
+            <city>Lisbon</city>
+            <amenities>
+                <amenity>Free WiFi</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>Corinthia Hotel Budapest</name>
+            <address>Erzsebet korut 43, Budapest</address>
+            <numRooms>414</numRooms>
+            <pricePerNight>280.00</pricePerNight>
+            <description>Grand hotel in a restored 19th century palace</description>
+            <category>5</category>
+            <city>Budapest</city>
+            <amenities>
+                <amenity>Pool</amenity>
+                <amenity>Spa</amenity>
+                <amenity>Gym</amenity>
+                <amenity>Restaurant</amenity>
+                <amenity>Bar</amenity>
+                <amenity>Free WiFi</amenity>
+                <amenity>Concierge</amenity>
+                <amenity>Room Service</amenity>
+            </amenities>
+        </hotel>
+        <hotel>
+            <name>Budapest River View Hotel</name>
+            <address>Belvárosi rakpart 16, Budapest</address>
+            <numRooms>80</numRooms>
+            <pricePerNight>150.00</pricePerNight>
+            <description>Modern hotel with panoramic views of the Danube and Buda Castle</description>
+            <category>4</category>
+            <city>Budapest</city>
+            <amenities>
+                <amenity>Restaurant</amenity>
+                <amenity>Bar</amenity>
+                <amenity>Free WiFi</amenity>
+                <amenity>Parking</amenity>
+            </amenities>
+        </hotel>
+    </hotels>
+</data>

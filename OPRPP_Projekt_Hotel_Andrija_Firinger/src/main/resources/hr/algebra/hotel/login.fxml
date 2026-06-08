@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="hr.algebra.hotel.controller.LoginController"
+      alignment="CENTER"
+      spacing="15"
+      prefWidth="400"
+      prefHeight="350">
+
+    <padding>
+        <Insets top="40" right="60" bottom="40" left="60"/>
+    </padding>
+
+    <Label text="Hotel Management" style="-fx-font-size: 20; -fx-font-weight: bold;"/>
+
+    <TextField fx:id="usernameField" promptText="Username"/>
+
+    <PasswordField fx:id="passwordField" promptText="Password"/>
+
+    <Label fx:id="errorLabel" style="-fx-text-fill: red;" text=""/>
+
+    <Button text="Login" onAction="#handleLogin" maxWidth="Infinity"/>
+
+    <Separator/>
+
+    <Label text="Register as Korisnik:"/>
+
+    <TextField fx:id="regUsernameField" promptText="New username"/>
+
+    <PasswordField fx:id="regPasswordField" promptText="New password"/>
+
+    <Button text="Register" onAction="#handleRegister" maxWidth="Infinity"/>
+
+</VBox>
