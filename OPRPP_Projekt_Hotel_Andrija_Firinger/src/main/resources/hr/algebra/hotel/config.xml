@@ -3,7 +3,7 @@
     <database>
         <url>jdbc:postgresql://localhost:5432/hotel</url>
         <username>postgres</username>
-        <password>11Racoon11</password>
+        <password>*******</password>
     </database>
     <screen>
         <width>1200</width>
